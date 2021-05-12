@@ -30,7 +30,7 @@ This is how I handle wait until response received then check the result
 In order to complete test, failure scenario should be tested as well such as bad subscription type, unkown topic, json parse error etc.
 You may find relavant cases inside InstrumentSubscriptionTest.java
 
-<h1>Part 2 - Test with Cucumber Client</h1>
+<h1>Part 2 - Test with Cucumber </h1>
 
 I created echo.feature file to keep scenario related with subscription
 If you are familiar with Cucumber / Gherkin, the big difference here is that you don't need to write extra "glue" code or Java "step definitions" with karate!
